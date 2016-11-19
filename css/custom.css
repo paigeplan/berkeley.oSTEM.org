@@ -72,13 +72,44 @@ iframe {
 }
 
 
-/* Button */
 
-.btn, .btn-large, .btn-flat {
+
+/* Headers and Fonts */
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://fonts.googleapis.com/css?family=Open+Sans);
+}
+
+html {
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+h1 {
+	font-size: 4.2rem;
+	line-height: 110%;
+	margin: 2.1rem 0 1.68rem 0;
+}
+
+h2 {
+	
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+
+/* Navigation bar button */
+
+.btn {
    border: none;
    border-radius: 1px;
    display: inline-block;
    height: 36px;
+   font-weight: medium;
    line-height: 36px;
    padding: 0 1em;
 }
