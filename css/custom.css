@@ -150,10 +150,12 @@ p {
 }
 
 .image.fit {
-	display: block;
+	
 	margin: 0 0 2em 0;
 	width: 100%;
+	position:relative;
 }
+
 
 
 .image:after {
@@ -167,9 +169,32 @@ p {
     -webkit-transition: all 0.5s;
     border-radius: 8px;
 }
+
 .image:hover:after {
     opacity:1;
     border-radius: 8px;
 }
 
+.image-text{
+	position:absolute;
+	bottom:0; 
+	font-size:12pt;
+	color: #fff; 
+	padding-top: 30px;
+	padding-right: 2pt;
+	padding-left: 2pt;
+	width:100%; 
+	height: 100%;
+	text-align:center;
+	opacity: 0;
+	z-index: 100;
+}
 
+.image-text.name {
+	font-size:15pt;
+	font-weight: bold;
+}
+
+.image.fit:hover > .image-text {
+	opacity: 1;
+}
