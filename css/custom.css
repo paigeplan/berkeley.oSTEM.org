@@ -29,7 +29,7 @@ nav {
 	min-width: 350px;
 	height: auto;
 	padding-bottom: 5px;
-	padding-top: 40px;
+	padding-top: 30px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -62,10 +62,6 @@ nav {
 
 .info{
 	font-size: 20px;
-}
-
-footer a {
-	padding-right: 10px;
 }
 
 iframe {
@@ -105,10 +101,27 @@ h5 {
 	color: #6E6D6D;
 }
 
+h4 {
+	line-height: 150%;
+	font-size: 18pt;
+}
+
 h6 {
 	line-height: 150%;
-	font-size: 10pt;
+	font-size: 12pt;
 	color: #6E6D6D;
+}
+
+@media only screen and (max-width: 480px) {
+  h4 {
+  	font-size:10pt;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h6 {
+  	font-size:6pt;
+  }
 }
 
 p {
@@ -134,7 +147,7 @@ p {
    padding: 0 1em;
 }
 
-/* Images */
+/* Officer Images */
 
 .image {
 	border-radius: 8px;
@@ -156,8 +169,6 @@ p {
 	position:relative;
 }
 
-
-
 .image:after {
     content:'\A';
     position:absolute;
@@ -175,7 +186,7 @@ p {
     border-radius: 8px;
 }
 
-.image-text{
+.image-text {
 	position:absolute;
 	bottom:0; 
 	font-size:12pt;
@@ -197,4 +208,10 @@ p {
 
 .image.fit:hover > .image-text {
 	opacity: 1;
+}
+
+@media only screen and (max-width: 480px) {
+  .image-text.name {
+  	font-size:10pt;
+  }
 }

@@ -3,25 +3,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset ="utf-8">
 		<title>oSTEM @ UC Berkeley</title>
 
-		    <!--Import materialize.css-->
+		<!--Import materialize.css-->
     	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     	<link rel="stylesheet" href="css/custom.css"/>
     	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
+    	<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+          
+
     	<!--Let browser know website is optimized for mobile-->
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	</head>
-		
+	</head>	
 <body>
-		<a name="home"></a>
-		
 		<!-- =================================NAV=====================================-->
 		  <div class="navbar-fixed row center">
 		    <nav>
 		        <div class = "row center">
-				    <a href="#home" class = "waves-effect waves-light btn  red">Home</a>
+				    <a href="#" class = "waves-effect waves-light btn  red">Home</a>
 				    <a href="#meetings" class = "waves-effect waves-light btn orange">Meetings</a>
 				    <a href="#events" class = "waves-effect waves-light btn yellow">Events</a>
 			        <a href="#officers" class = "waves-effect waves-light btn green">Officers</a>
@@ -65,7 +66,7 @@
 						<h2> Weekly Meetings </h2>
 						<h5>Mondays: 7:00pm - 8:30pm </h5>
 						<h5>Location: Dwinelle 255</h5>
-						<h5>For more info email us at: ostem.berkeley@gmail.com</h5>
+						<h5>For more info email us at: <a href="mailto:ostem.berkeley@gmail.com?">ostem.berkeley@gmail.com</h5> </a>
 					</div>
 				</div>
 			</div>
@@ -142,9 +143,11 @@
 				
 				<!-- Sponsorhip package download button-->
 					<div class = "col s12">
-						<p><a href="/pdf/sponsorship.pdf" download>
-							<a class="waves-effect waves-light btn-large">Download our Sponsorhip Package</a>
-						</a></p>
+						<p>
+							<div class="waves-effect waves-light btn-large">
+								<a style="color: #fff;" href="pdf/sponsorship.pdf" download>
+									Download our Sponsorship Package</a>
+						</div></p>
 					</div> <!-- END sponsorhip package download button-->
 				</div>
 			</div> 
