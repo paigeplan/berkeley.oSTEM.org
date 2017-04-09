@@ -73,13 +73,13 @@ iframe {
 /* Headers and Fonts */
 
 @font-face {
- 	font-family: "Open Sans";
-  	src: url(https://fonts.googleapis.com/css?family=Open+Sans);
+ 	font-family: 'Nunito';
+  	src: url(https://fonts.googleapis.com/css?family=Nunito);
 }
 
 html {
 	line-height: 1.5;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: normal;
 	color: rgba(0, 0, 0, 0.87);
 }
@@ -89,9 +89,13 @@ body {
 }
 
 h2 {
-	text-transform: uppercase;
 	font-size: 40px;
 	font-weight: bold;
+}
+
+h4 {
+	line-height: 150%;
+	font-size: 18pt;
 }
 
 h5 {
@@ -101,14 +105,10 @@ h5 {
 	color: #6E6D6D;
 }
 
-h4 {
-	line-height: 150%;
-	font-size: 18pt;
-}
-
 h6 {
+	font-size: 16px;
+	margin: 5px 5px 5px 5px;
 	line-height: 150%;
-	font-size: 12pt;
 	color: #6E6D6D;
 }
 
