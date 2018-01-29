@@ -24,7 +24,7 @@ nav {
 }
 
 .logo img{
-	width: 50%;
+	width: 80%;
 	max-width: 1200px;
 	min-width: 350px;
 	height: auto;
@@ -43,6 +43,8 @@ nav {
 .content {
 	padding-top: 20px;
 	padding-bottom: 0px;
+    text-align: "left";
+    padding: 10%;
 
 }
 
@@ -50,10 +52,6 @@ nav {
 	max-width: 350px;
 	width:100%;
 	height: auto;
-}
-
-.section {
-	padding-bottom: 80px;
 }
 
 .section img {
@@ -74,6 +72,7 @@ iframe {
 
 @font-face {
  	font-family: 'Nunito';
+
   	src: url(https://fonts.googleapis.com/css?family=Nunito);
 }
 
@@ -85,13 +84,19 @@ html {
 }
 
 body {
-	padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
 	font-size: 40px;
-	font-weight: bold;
+	font-family: 'Karla', sans-serif;
 }
+
+h3 {
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
 
 h4 {
 	line-height: 150%;
@@ -130,9 +135,7 @@ p {
 }
 
 .section {
-	padding-top: 30;
-	padding-bottom: 20px;
-
+	padding-bottom: 50px;
 }
 
 /* Navigation bar button */
@@ -149,6 +152,10 @@ p {
 
 /* Officer Images */
 
+.card {
+    margin-top: 10px;
+}
+
 .image {
 	border-radius: 8px;
 	border: 0;
@@ -163,7 +170,6 @@ p {
 }
 
 .image.fit {
-	
 	margin: 0 0 2em 0;
 	width: 100%;
 	position:relative;
@@ -186,24 +192,20 @@ p {
     border-radius: 8px;
 }
 
-.image-text {
-	position:absolute;
-	bottom:0; 
-	font-size:12pt;
-	color: #fff; 
-	padding-top: 20px;
-	padding-right: 2pt;
-	padding-left: 2pt;
-	width:100%; 
-	height: 100%;
-	text-align:center;
-	vertical-align: center;
-	opacity: 0;
-	z-index: 100;
-}
-
 .image-text.name {
-	font-size:15pt;
+    position:absolute;
+    bottom:0; 
+    color: #fff; 
+    padding-top: 50px;
+    padding-right: 2pt;
+    padding-left: 2pt;
+    width:100%; 
+    height: 100%;
+    text-align:center;
+    vertical-align: center;
+    opacity: 0;
+    z-index: 100;
+	font-size:9pt;
 	font-weight: bold;
 }
 
