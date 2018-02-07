@@ -73,16 +73,7 @@ h3 {
 
 /* Navigation Bar Button  -------------------------------------------------*/
 
-.btn {
-    border: none;
-    border-radius: 1px;
-    display: inline-block;
-    height: 36px;
-    font-size: 12pt;
-    font-weight: medium;
-    line-height: 36px;
-    padding: 0 1em;
-}
+
 
 /* Flex styles -------------------------------------------------*/
 
